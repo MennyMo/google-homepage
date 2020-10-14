@@ -31,4 +31,15 @@
   border: 1px solid #c6c6c6;
 }
 
-.footer {}
+.footer {
+  color: rgb(34,34,34);
+  font-size: 13.3333px;
+  background-color: rgb(242, 242, 242);
+  border-top-color: rgb(228, 228, 228);
+  border-top-style: solid;
+  border-top-width: 1px;
+  line-height: 40px;
+  position: absolute;
+  bottom: 0px;
+  min-width: 400px;
+}
