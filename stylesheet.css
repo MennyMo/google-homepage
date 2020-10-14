@@ -1,3 +1,7 @@
+body{
+  font-family: arial, sans-serif;
+}
+
 .logo {
   display: flex;
   position: absolute;
@@ -5,10 +9,17 @@
   left: 50%;
 }
 
-.searchbar {}
+.searchbar {
+  display: flex;
+  box-sizing: content-box;
+  flex-wrap: wrap;
+  color: #222;
+  background: #fff;
+
+
+}
 
 .searchbutton {
-  font-family: arial, sans-serif;
   font-size: 14px;
   background-color: rgb(242, 242, 242);
   color: #5F6368;
