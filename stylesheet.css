@@ -1,109 +1,99 @@
-*{
+* {
   font-family: arial, sans-serif;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-/* Hallo Tamia
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⣿⣿⡆⠀⠀⢸⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡇⠀⠀⣾⣿⡆⠀
-⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⢰⣿⡆⠀⣾⣿⡆⠀⣾⣷ ⣿⣿⡇⠀⠀⣿⣿⡇⠀
-⠀⠀⠀⣿⣿⡇⠀⠀⢸⣿⠘⣿⣿⣤⣿⣿⣿⣤⣿⡇⢻⣿⡇⠀⠀⣿⣿⡇⠀
-⠀⠀⠀⣿⣿⡇⠀⠀⢸⡿⠀⢹⣿⣿⣿⣿⣿⣿⣿⠁⢸⣿⣇⠀⢀⣿⣿⠇⠀
-⠀⠀⠀⠙⢿⣷⣶⣶⡿⠁⠀⠈⣿⣿⠟⠀⣿⣿⠇⠀⠈⠻⣿⣶⣾⡿⠋⠀⠀
-
-*/
-
-.content{
+.content {
   text-align: center;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   color: blue;
 }
 
-.navbar{
+.navbar {
   margin-top: 15.5px;
   padding-right: 30px;
   height: 10px;
   float: right;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   align-items: center;
   font-size: small;
 }
-.navbar:hover{
+
+.navbar:hover {
   text-decoration: underline;
-  opacity:85%;
+  opacity: 85%;
 }
 
-.navbar2{
+.navbar2 {
   padding-right: 7.5px;
   display: inline-block;
   opacity: 85%;
   font-size: 14px;
 }
 
-.navbar3{
+.navbar3 {
   display: inline-block;
 }
 
-.gmail{
+.gmail {
   display: inline-block;
 }
 
-.gmail:hover{
+.gmail:hover {
   color: :#000;
-  cursor:pointer;
+  cursor: pointer;
   text-decoration: underline;
 }
 
-.gim{
-  display:inline-block;
-   padding-left: 11px;
+.gim {
+  display: inline-block;
+  padding-left: 11px;
 }
 
-.gim:hover{
+.gim:hover {
   color: :#000;
-  cursor:pointer;
+  cursor: pointer;
   text-decoration: underline;
 }
 
-
-.optionsmenu{
+.optionsmenu {
   padding-left: 5px;
-    padding-right: 12.5px;
-    display: inline-block;
-    vertical-align: middle;
+  padding-right: 12.5px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.optionsmenu:hover{
-  opacity:50%;
-  cursor:pointer;
+.optionsmenu:hover {
+  opacity: 50%;
+  cursor: pointer;
 }
 
-.userprofile{
+.userprofile {
   padding-right: 30px;
   float: right;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   font-size: small;
   display: inline-block;
   vertical-align: middle;
 }
 
-.userprofile:hover{
-  opacity:50%;
-  cursor:pointer;
+.userprofile:hover {
+  opacity: 50%;
+  cursor: pointer;
 }
 
 .logo {
-  text-align: center     /*lol wtf, adding the ; breaks it somehow?*/
-  width: 272px;
+  text-align: center
+    /*lol wtf, adding the ; breaks it somehow?*/
+    width: 272px;
   height: 92px;
   margin-bottom: -20px;
-  padding-top:109px;
+  padding-top: 109px;
 }
-
 
 .searchbar {
   display: flex;
@@ -112,38 +102,37 @@ a:hover{
   color: #222;
   background: #fff;
 }
+
 .search {
-    border: none;
-    width: 490px;
-    font-size: 1.1rem
-}
-.search:focus {
-    outline: none;
+  border: none;
+  width: 490px;
+  font-size: 1.1rem
 }
 
+.search:focus {
+  outline: none;
+}
 
 .microphone-icon {
-    height: 24px;
-    width: auto;
-    cursor: pointer;
+  height: 24px;
+  width: auto;
+  cursor: pointer;
 }
 
-
 .wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 582px;
-    height: 44px;
-    border: 1px solid #dfe1e5;
-    border-radius: 24px;
-    margin: 30px auto 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 582px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  margin: 30px auto 30px auto;
 }
 
 .wrapper:hover {
-    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
 }
-
 
 .searchbutton {
   font-size: 14px;
@@ -152,8 +141,8 @@ a:hover{
   border-radius: 4px;
   border-width: 0px;
   border: 0px, solid, #f2f2f2;
-  padding:0 16px;
-  line-height:  27px;
+  padding: 0 16px;
+  line-height: 27px;
   height: 36px;
   text-align: center;
   cursor: pointer;
@@ -161,149 +150,152 @@ a:hover{
   min-width: 54px;
 }
 
-.searchbutton:hover{
+.searchbutton:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   background-color: #f8f8f8;
   color: #222;
   border: 1px solid #c6c6c6;
 }
 
-.searchicon{
-  height:24px;
+.searchicon {
+  height: 24px;
   width: 24px;
   align-self: center;
   padding: 15px 10px;
-  opacity:35%;
-
+  opacity: 35%;
 }
 
-.offeredIn{
+.offeredIn {
   font-family: arial, sans-serif;
   color: #000;
   font-size: 14px;
-  margin-top:20px;
+  margin-top: 20px;
   opacity: 85%;
 }
 
-
- .footer {
-  position:absolute;
-  color: rgb(34,34,34);
+.footer {
+  position: absolute;
+  color: rgb(34, 34, 34);
   font-size: 15px;
   background-color: #f2f2f2;
   border-top-color: rgb(228, 228, 228);
   border-top-style: solid;
   border-top-width: 1px;
-  padding:0 16px;
+  padding: 0 16px;
   line-height: 40px;
-  bottom:0px;
-  width:50%;
+  bottom: 0px;
+  width: 50%;
   min-width: 400px;
-
 }
 
 .footer2 {
- position:absolute;
- color: rgb(34,34,34);
- font-size: 15px;
- background-color: #f2f2f2;
- border-top-color: rgb(228, 228, 228);
- border-top-style: solid;
- border-top-width: 1px;
- padding:0 16px;
- line-height: 40px;
- bottom:40px;
- width:100%;
- min-width: 400px;
-
+  position: absolute;
+  color: rgb(34, 34, 34);
+  font-size: 15px;
+  background-color: #f2f2f2;
+  border-top-color: rgb(228, 228, 228);
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding: 0 16px;
+  line-height: 40px;
+  bottom: 40px;
+  width: 100%;
+  min-width: 400px;
 }
 
 .footer3 {
- color: rgb(34,34,34);
- font-size: 15px;
- background-color: #f2f2f2;
- border-top-color: rgb(228, 228, 228);
- border-top-style: solid;
- border-top-width: 1px;
- padding:0 16px;
- line-height: 40px;
- bottom:0px;
- width:50%;
- min-width: 400px;
+  color: rgb(34, 34, 34);
+  font-size: 15px;
+  background-color: #f2f2f2;
+  border-top-color: rgb(228, 228, 228);
+  border-top-style: solid;
+  border-top-width: 1px;
+  padding: 0 16px;
+  line-height: 40px;
+  bottom: 0px;
+  width: 50%;
+  min-width: 400px;
 }
 
-.ad{
+.ad {
   display: inline-block;
   opacity: 85%;
-  padding:0 5px;
+  padding: 0 5px;
 }
-.ad:hover{
+
+.ad:hover {
   text-decoration: underline;
   opacity: 50%;
 }
 
-.business{
+.business {
   display: inline-block;
   opacity: 85%;
-  padding:0 5px;
+  padding: 0 5px;
 }
-.business:hover{
+
+.business:hover {
   text-decoration: underline;
   opacity: 50%;
 }
 
-.about{
+.about {
   display: inline-block;
   opacity: 85%;
-  padding:0 5px;
+  padding: 0 5px;
 }
-.about:hover{
+
+.about:hover {
   text-decoration: underline;
   opacity: 50%;
 }
 
-.howsearchworks{
+.howsearchworks {
   display: inline-block;
   opacity: 85%;
-  padding:0 10px;
+  padding: 0 10px;
 }
-.howsearchworks:hover{
+
+.howsearchworks:hover {
   text-decoration: underline;
   opacity: 50%;
 }
 
-.brazil{
+.brazil {
   display: inline-block;
   opacity: 85%;
-  padding:0 5px;
-}
-.privacy{
-  display: inline-block;
-  opacity: 85%;
-  padding:0 15px;
+  padding: 0 5px;
 }
 
-.privacy:hover{
+.privacy {
+  display: inline-block;
+  opacity: 85%;
+  padding: 0 15px;
+}
+
+.privacy:hover {
   text-decoration: underline;
   opacity: 50%;
 }
 
-.terms{
+.terms {
   display: inline-block;
   opacity: 85%;
-  padding:0 15px;
+  padding: 0 15px;
 }
-.terms:hover{
+
+.terms:hover {
   text-decoration: underline;
   opacity: 50%;
 }
 
-.settings{
+.settings {
   display: inline-block;
   opacity: 85%;
-  padding:0 15px;
+  padding: 0 15px;
 }
-.settings:hover{
+
+.settings:hover {
   text-decoration: underline;
   opacity: 50%;
 }
