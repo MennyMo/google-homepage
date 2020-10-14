@@ -1,5 +1,7 @@
-body{
+*{
   font-family: arial, sans-serif;
+  margin:0;
+  padding:0;
 }
 
 /* Hallo Tamia
@@ -12,11 +14,46 @@ body{
 
 */
 
+.navbar{
+  line-height: 24px;
+  color: rgba(0,0,0,.87);
+  display: inline;
+  padding: 5px;
+  font-size: 14px;
+}
+.navbar:hover{
+  text-decoration: underline;
+  opacity:85%;
+}
+
+.optionsmenu{
+  color: #000;
+  cursor:pointer;
+  text-decoration: none;
+  opacity: 35%;
+  display: inline;
+  position: absolute;
+}
+.optionsmenu:hover{
+  opacity: 85;
+}
+.userprofile{
+  color: #000;
+  cursor:pointer;
+  text-decoration: none;
+  opacity: 35%;
+  display: inline;
+}
+
 .logo {
   display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 272px;
+  height: 92px;
+  margin-bottom: -50px;
+  padding-top:109px;
 }
 
 .searchbar {
@@ -25,9 +62,27 @@ body{
   flex-wrap: wrap;
   color: #222;
   background: #fff;
+}
 
+.form{
 
 }
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+  width: 582px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  margin: 30px auto 30px auto;
+}
+
+.wrapper:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
 
 .searchbutton {
   font-size: 14px;
@@ -52,10 +107,21 @@ body{
   border: 1px solid #c6c6c6;
 }
 
-.footer {
+.searchicon{
+  height:24px;
+  width: 24px;
+  align-self: center;
+  padding: 15px;
+  opacity:35%;
+
+}
+
+
+.contentbar {
+  display: block;
   color: rgb(34,34,34);
   font-size: 13.3333px;
-  background-color: rgb(242, 242, 242);
+  background-color: #f2f2f2;
   border-top-color: rgb(228, 228, 228);
   border-top-style: solid;
   border-top-width: 1px;
@@ -63,4 +129,7 @@ body{
   position: absolute;
   bottom: 0px;
   min-width: 400px;
+}
+.footer:hover{
+  text-decoration: underline;
 }
