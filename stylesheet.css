@@ -186,19 +186,124 @@ a:hover{
 }
 
 
-.contentbar {
-  display: block;
+ .footer {
+  position:absolute;
   color: rgb(34,34,34);
-  font-size: 13.3333px;
+  font-size: 15px;
   background-color: #f2f2f2;
   border-top-color: rgb(228, 228, 228);
   border-top-style: solid;
   border-top-width: 1px;
+  padding:0 16px;
   line-height: 40px;
-  position: absolute;
-  bottom: 0px;
+  bottom:0px;
+  width:50%;
   min-width: 400px;
+
 }
-.footer:hover{
+
+.footer2 {
+ position:absolute;
+ color: rgb(34,34,34);
+ font-size: 15px;
+ background-color: #f2f2f2;
+ border-top-color: rgb(228, 228, 228);
+ border-top-style: solid;
+ border-top-width: 1px;
+ padding:0 16px;
+ line-height: 40px;
+ bottom:40px;
+ width:100%;
+ min-width: 400px;
+
+}
+
+.footer3 {
+ color: rgb(34,34,34);
+ font-size: 15px;
+ background-color: #f2f2f2;
+ border-top-color: rgb(228, 228, 228);
+ border-top-style: solid;
+ border-top-width: 1px;
+ padding:0 16px;
+ line-height: 40px;
+ bottom:0px;
+ width:50%;
+ min-width: 400px;
+}
+
+.ad{
+  display: inline-block;
+  opacity: 85%;
+  padding:0 5px;
+}
+.ad:hover{
   text-decoration: underline;
+  opacity: 50%;
+}
+
+.business{
+  display: inline-block;
+  opacity: 85%;
+  padding:0 5px;
+}
+.business:hover{
+  text-decoration: underline;
+  opacity: 50%;
+}
+
+.about{
+  display: inline-block;
+  opacity: 85%;
+  padding:0 5px;
+}
+.about:hover{
+  text-decoration: underline;
+  opacity: 50%;
+}
+
+.howsearchworks{
+  display: inline-block;
+  opacity: 85%;
+  padding:0 10px;
+}
+.howsearchworks:hover{
+  text-decoration: underline;
+  opacity: 50%;
+}
+
+.brazil{
+  display: inline-block;
+  opacity: 85%;
+  padding:0 5px;
+}
+.privacy{
+  display: inline-block;
+  opacity: 85%;
+  padding:0 15px;
+}
+
+.privacy:hover{
+  text-decoration: underline;
+  opacity: 50%;
+}
+
+.terms{
+  display: inline-block;
+  opacity: 85%;
+  padding:0 15px;
+}
+.terms:hover{
+  text-decoration: underline;
+  opacity: 50%;
+}
+
+.settings{
+  display: inline-block;
+  opacity: 85%;
+  padding:0 15px;
+}
+.settings:hover{
+  text-decoration: underline;
+  opacity: 50%;
 }
