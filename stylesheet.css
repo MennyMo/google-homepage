@@ -14,7 +14,13 @@
 
 */
 
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
 .navbar{
+  margin-top: 22.5px;
   line-height: 24px;
   color: rgba(0,0,0,.87);
   display: inline;
@@ -31,28 +37,26 @@
   cursor:pointer;
   text-decoration: none;
   opacity: 35%;
-  display: inline;
+  display: inline-block;
   position: absolute;
+  vertical-align: middle;
 }
 .optionsmenu:hover{
   opacity: 85;
 }
 .userprofile{
-  color: #000;
   cursor:pointer;
-  text-decoration: none;
   opacity: 35%;
-  display: inline;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .logo {
-  display: flex;
-  position: absolute;
   top: 50%;
   left: 50%;
   width: 272px;
   height: 92px;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
   padding-top:109px;
 }
 
@@ -63,20 +67,32 @@
   color: #222;
   background: #fff;
 }
-
-.form{
-
+.search {
+    border: none;
+    width: 490px;
+    font-size: 1.1rem
+}
+.search:focus {
+    outline: none;
 }
 
-.wrapper{
-  display: flex;
-  align-items: center;
-  justify-content:flex-start;
-  width: 582px;
-  height: 44px;
-  border: 1px solid #dfe1e5;
-  border-radius: 24px;
-  margin: 30px auto 30px auto;
+
+.microphone-icon {
+    height: 24px;
+    width: auto;
+    cursor: pointer;
+}
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 582px;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 30px auto 30px auto;
 }
 
 .wrapper:hover {
@@ -111,9 +127,17 @@
   height:24px;
   width: 24px;
   align-self: center;
-  padding: 15px;
+  padding: 15px 10px;
   opacity:35%;
 
+}
+
+.offeredIn{
+  font-family: arial, sans-serif;
+  color: #000;
+  font-size: 14px;
+  margin-top:20px;
+  opacity: 85%;
 }
 
 
